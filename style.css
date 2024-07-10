@@ -288,8 +288,10 @@ background-color: black;
 }
 
 footer {
-  background-color: #F7F8F8;
-
+    box-sizing: border-box;
+    padding: 32px 155px;
+    margin: 10px;
+    background-color: #F2F6FE;
 }
 
 footer .author p {
@@ -311,4 +313,5 @@ footer .author p {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    max-width: max-content;
 }
