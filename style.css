@@ -153,6 +153,7 @@ background-color: black;
 
 .my-curren-target h2 {
     font-size: 32px;
+    margin-bottom: 30px;
     font-weight: bold;
     text-align: center;
 }
@@ -299,6 +300,7 @@ footer {
 footer .author{
     font-size: 18px;
     font-weight: 400;
+    padding-right: 200px;
 }
 .media-icons {
     display: flex;
@@ -307,6 +309,7 @@ footer .author{
 }
 .media-icons a {
     text-decoration: none;
+    
   
 }
 
