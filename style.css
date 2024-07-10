@@ -42,9 +42,11 @@
 }
 
 .text-area h1 {
+    
     font-size: 42px;
     font-weight: bold;
     text-align: center;
+    margin-bottom: 30px;
 }
 
 .text-area p {
@@ -71,6 +73,7 @@ main {
     font-size: 32px;
     font-weight: bolder;
     text-align: center;
+    margin-bottom: 30px;
 }
 
 .why-web-dev p {
@@ -79,6 +82,8 @@ main {
     color: #0D1321;
     opacity: 0.7;
     line-height: 26px;
+    margin-bottom: 30px;
+    text-align: justify;
 }
 
 .dream {
@@ -137,6 +142,7 @@ background-color: black;
     font-size: 32px;
     font-weight: bold;
     text-align: center;
+    margin-bottom: 30px;
 }
 .my-inspiration .info p {
     font-size: 16px;
@@ -243,6 +249,7 @@ background-color: black;
     object-fit: cover;
     padding: 25px;
     border-radius: 16px;
+    margin-bottom: 79px;
 }
 
 .hand-elements {
