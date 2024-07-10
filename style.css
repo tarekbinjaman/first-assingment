@@ -296,11 +296,12 @@ background-color: black;
 }
 
 footer {
-    max-width: 1440px;
+
     display: flex;
     background-color: #F7F8F8;
     align-items: center;
     justify-content: center;
+    padding: 20px;
 
 }
 
@@ -311,7 +312,7 @@ footer .author{
 }
 .media-icons {
     display: flex;
-    gap: 10px;
+    gap: 20px;
 
 }
 .media-icons a {
