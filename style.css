@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    font-family: "Azeret Mono", monospace;
+    margin: 0;
+    padding: 0;
+}
+
+.intro {
+    background-image: url("assets/Hero-bg.png");
+    position: center;
+    object-fit: cover;
+}
+
+.elements {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.elements .hero {
+    margin-top: 26px;
+    margin-bottom: 32px;
+}
+
+.elements .jump {
+    border: none;
+    color: white;
+    background-color: rgba(13, 19, 33, 1.00);
+    border-radius: 8px;
+    padding: 24px 21px;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 44px;
+    cursor: pointer;
+}
+
+.text-area {
+    max-width: 1200px;
+    margin-bottom: 32px;
+}
+
+.text-area h1 {
+    font-size: 42px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.text-area p {
+    font-size: 16px;
+    text-align: center;
+    color: #0D1321;
+    opacity: 0.7;
+    line-height: 26px;
+}
+
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.why-dev {
+    padding: 80px 97px;
+    margin-top: 74px;
+    background-color: whitesmoke;
+    margin-bottom: 88px;
+}
+
+.why-web-dev h2 {
+    font-size: 32px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.why-web-dev p {
+    font-size: 16px;
+    text-align: start;
+    color: #0D1321;
+    opacity: 0.7;
+    line-height: 26px;
+}
+
+.dream {
+    display: flex;
+    flex-direction: column;
+}
+
+.change-the-world {
+    display: flex;
+    max-width: 946px;
+    justify-content: space-between;
+    gap: auto;
+    padding: 48px 48px;
+    background: linear-gradient(to right,whitesmoke, white);
+    border-radius: 16px;
+    margin-bottom: 32px;
+
+}
+
+.change-the-world .info {
+    max-width: 477px;
+}
+
+.change-the-world .info h2 {
+    font-size: 24;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.change-the-world .info p {
+    font-size: 16px;
+    text-align: start;
+    color: #0D1321;
+    opacity: 0.7;
+    line-height: 26px;
+    margin-bottom: 32px;
+}
+
+.change-the-world .info span {
+    padding: 12px 20px;
+    border: 2px solid #0D1321;
+    font-size: 18px;
+    font-weight: 500;
+    opacity: 0.7;
+}
+
+.change-the-world .two {
+background-color: black;
+}
+
+.my-inspiration {
+    margin-bottom: 149px;
+}
+
+.my-inspiration .info h2 {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+}
+.my-inspiration .info p {
+    font-size: 16px;
+    text-align: center;
+    line-height: 24px;
+    opacity: 0.7;
+    margin-bottom: 48px;
+}
+
+.my-inspiration .video {
+    margin-top: 32px;
+    border-radius: 16px;
+}
+
+.my-curren-target h2 {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+}
+.my-curren-target .info p {
+    font-size: 16px;
+    text-align: center;
+    line-height: 24px;
+    opacity: 0.7;
+    margin-bottom: 48px;
+}
+
+
+.boxes {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 111px;
+}
+
+
+/* html star */
+
+.boxes .html {
+    max-width: 350px;
+    background-color: #FFF6F4;
+    border-radius: 16px;
+    padding: 40px;
+}
+.html p {
+    font-size: 14px;
+    font-weight: 400;
+    text-align: start;
+    opacity: 0.7;
+    line-height: 22px;
+}
+.boxes .html a {
+    color: black;
+    font-weight: bold;
+}
+
+/* .boxes css styel */
+
+.css {
+    max-width: 350px;
+    background-color: #F2F6FE;
+    border-radius: 16px;
+    padding: 40px;
+}
+.css p {
+    font-size: 14px;
+    font-weight: 400;
+    text-align: start;
+    opacity: 0.7;
+    line-height: 22px;
+}
+
+.css a {
+    color: black;
+    font-weight: bold;
+}
+
+/* .boxes js sty */
+
+.js {
+    max-width: 350px;
+    background-color: #FFFDF2;
+    border-radius: 16px;
+    padding: 40px;
+}
+.js p {
+    font-size: 14px;
+    font-weight: 400;
+    text-align: start;
+    opacity: 0.7;
+    line-height: 22px;
+}
+
+.js a {
+    color: black;
+    font-weight: bold;
+}
+
+
+.handshake {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), 
+    url("assets/handshake.jpg");
+    background-position: center;
+    object-fit: cover;
+    padding: 25px;
+    border-radius: 16px;
+}
+
+.hand-elements {
+    margin: 64px 48px;
+}
+
+.hand-elements h3 {
+    margin-top: 64px;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+
+.hand-elements p {
+    font-size: 14px;
+    font-weight: 300;
+    color: white;
+    opacity: 0.5;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    margin-bottom: 50px;
+}
+
+.intp {
+    padding: 19px 50px;
+    border-radius: 8px;
+    border: none;
+    text-align: start;
+}
+
+.submit {
+    padding: 19px 20px;
+    border-radius: 8px;
+    color: #5e5e5f;
+    border: none;
+}
+
+footer {
+  background-color: #F7F8F8;
+
+}
+
+footer .author p {
+    font-size: 18px;
+    font-weight: 400;
+    padding-left: 30px;
+}
+.media-icons {
+    display: flex;
+    gap: 10px;
+
+}
+.media-icons a {
+    text-decoration: none;
+  
+}
+
+.last {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
